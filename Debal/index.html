@@ -106,8 +106,16 @@
                         <h1 class="display-3 text-white mb-3 animated slideInDown">Time to Find You A Roommate</h1>
                         <p class="fs-4 text-white mb-4 animated slideInDown">Get a comfortable home with an affordable price tag</p>
                         <div class="position-relative w-75 mx-auto animated slideInDown">
-                            <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: Addis Ababa">
-                            <button type="button" class="btn btn-primary rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
+                            <input class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Eg: One Bed Room"><br>
+                            <div class="filter">
+                                <button data-filter="ping" data-reset="true">Reset</button>
+                                <button data-filter="ping" data-filter-tag="a">Addis Ababa</button>
+                                <button data-filter="ping" data-filter-tag="b">Adama</button>
+                                <button data-filter="ping" data-filter-tag="c">Bahir Dar</button>
+                                <button data-filter="ping" data-filter-tag="c">Hawassa</button>
+                            </div>
+                            
+                            <button type="button" class="btn btn-info rounded-pill py-2 px-4 position-absolute top-0 end-0 me-2" style="margin-top: 7px;">Search</button>
                         </div>
                     </div>
                 </div>
@@ -126,24 +134,24 @@
                     <h6 class="section-title bg-white text-start text-info pe-3">About Us</h6>
                     <h1 class="mb-4" style="display: flex;
                     align-items: center;
-                    justify-content: center;">Welcome to <span class="text-info">Debal</span></h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    justify-content: center;">Welcome to <span class="text-info"> &nbsp;Debal</span></h1>
+                    <p class="mb-4">Introducing Debal, the innovative new platform designed especially for people seeking affordable housing options. Whether renting or owning is your preference, Debal connects users with other like-minded individuals looking to share a home or apartment.</p>
+                    <p class="mb-4">Our state-of-the-art platform allows users to view property listings, connect with potential roommates, and even participate in virtual tours. With Debal, you can enjoy all the benefits of affordable living without sacrificing quality or convenience. Try it today and join the growing community of Debal users!</p>
                     <div class="row gy-2 gx-4 mb-4">
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info me-2"></i>First Class Accommodations</p>
+                            <p class="mb-0"><i class="fa fa-star text-info me-2"></i>First Class Accommodations</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info me-2"></i>Tailor made experience</p>
+                            <p class="mb-0"><i class="fa fa-star text-info me-2"></i>Tailor made experience</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info me-2"></i>Fast & Easily Accessible</p>
+                            <p class="mb-0"><i class="fa fa-star text-info me-2"></i>Fast & Easily Accessible</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info me-2"></i>Hospitality</p>
+                            <p class="mb-0"><i class="fa fa-star text-info me-2"></i>Hospitality</p>
                         </div>
                         <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info me-2"></i>24/7 Service</p>
+                            <p class="mb-0"><i class="fa fa-star text-info me-2"></i>24/7 Service</p>
                         </div>
                     </div>
                     <a class="btn btn-info py-3 px-5 mt-2" href=""  
@@ -153,7 +161,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" id="aboutImg" alt="" style="object-fit: cover; border-radius: 10px;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/pexels-cottonbro-studio-4778621.jpg" id="aboutImg" alt="" style="object-fit: cover; border-radius: 10px;">
                     </div>
                 </div>
             </div>
@@ -166,14 +174,14 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
+                <h6 class="section-title bg-white text-center text-info px-3">Services</h6>
                 <h1 class="mb-5">Our Services</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-globe text-info mb-4"></i>
                             <h5>WorldWide Tours</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -182,7 +190,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-hotel text-info mb-4"></i>
                             <h5>Hotel Reservation</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -191,7 +199,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-user text-info mb-4"></i>
                             <h5>Travel Guides</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -200,7 +208,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-cog text-info mb-4"></i>
                             <h5>Event Management</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -209,7 +217,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-globe text-info mb-4"></i>
                             <h5>WorldWide Tours</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -218,7 +226,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-hotel text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-hotel text-info mb-4"></i>
                             <h5>Hotel Reservation</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -227,7 +235,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-user text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-user text-info mb-4"></i>
                             <h5>Travel Guides</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -236,7 +244,7 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item rounded pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-cog text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-cog text-info mb-4"></i>
                             <h5>Event Management</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
@@ -261,22 +269,22 @@
                         <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                             <a class="position-relative d-block overflow-hidden" href="">
                                 <img class="img-fluid" src="img/3db183c3-4fec-4e57-82ad-081fb6c27162.jfif" alt="">
-                                <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Available</div>
-                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Addis Ababa</div>
+                                <div class="bg-white text-primary fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Available</div>
+                                <div class="bg-white text-info fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Addis Ababa</div>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                             <a class="position-relative d-block overflow-hidden" href="">
                                 <img class="img-fluid" src="img/adama.jpg" alt="">
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Coming Soon</div>
-                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Adama</div>
+                                <div class="bg-white text-info fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Adama</div>
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                             <a class="position-relative d-block overflow-hidden" href="">
                                 <img class="img-fluid" src="img/bahir dar.jpg" alt="">
                                 <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Coming Soon</div>
-                                <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Bahir Dar</div>
+                                <div class="bg-white text-info fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Bahir Dar</div>
                             </a>
                         </div>
                     </div>
@@ -285,7 +293,7 @@
                     <a class="position-relative d-block h-100 overflow-hidden" href="">
                         <img class="img-fluid position-absolute w-100 h-100" src="img/hawassa.png" alt="" style="object-fit: cover;">
                         <div class="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">Coming Soon</div>
-                        <div class="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Hawassa</div>
+                        <div class="bg-white text-info fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Hawassa</div>
                     </a>
                 </div>
             </div>
@@ -697,7 +705,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-info btn-lg-square back-to-top" style="border-radius: 5px ;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
