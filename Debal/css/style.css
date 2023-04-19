@@ -223,6 +223,12 @@
     left: 0;
 }
 
+/*** About ***/
+#aboutImg:hover{
+    box-shadow: 0 0 45px #15a4d8;
+    transition: .5s;
+}
+
 
 /*** Service ***/
 .service-item {
